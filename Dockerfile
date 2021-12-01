@@ -1,5 +1,6 @@
 # Use custom jboss base-jdk image with openjdk 17
 FROM ddrm86/jboss-jdk:17
+MAINTAINER David del Río Medina <ddrm86@gmail.com>
 
 # Set the WILDFLY_VERSION env variable
 ENV WILDFLY_VERSION 25.0.1.Final

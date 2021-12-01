@@ -1,5 +1,5 @@
-# Use latest jboss/base-jdk:11 image as the base
-FROM jboss/base-jdk:11
+# Use custom jboss base-jdk image with openjdk 17
+FROM ddrm86/jboss-jdk:17
 
 # Set the WILDFLY_VERSION env variable
 ENV WILDFLY_VERSION 25.0.1.Final
